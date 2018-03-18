@@ -1,0 +1,352 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?ouzl3l');
+    src:  url('../fonts/icomoon.eot?ouzl3l#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?ouzl3l') format('truetype'),
+    url('../fonts/icomoon.woff?ouzl3l') format('woff'),
+    url('../fonts/icomoon.svg?ouzl3l#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+header, section, footer, aside, nav, article, figure, figcaption {
+    display: block;}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body{
+    background-color: #f7f7f7;
+    color: #848789;
+    font-family: 'Lato', sans-serif;
+    outline: none;
+    margin:0;
+    font-size:18px;
+}
+
+header{
+    width:100%;
+}
+
+
+.nav{
+  
+    padding: 20px 0;
+    white-space: nowrap;
+    align-items: center;
+    display: inline-flex;
+    list-style: none;
+
+}
+
+.nav li{
+    margin: 0 20px;
+    display:inline-block;
+
+}
+
+.nav li a{
+    text-decoration: none;
+    color: #4d4959;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 13px;
+    transition: 0.2s ease;
+    -webkit-transition: 0.2s ease-out;
+    -moz-transition: 0.2s ease-out;
+    -o-transition: 0.2s ease-out;
+}
+
+
+.logoImage:hover{
+    opacity:0.6;
+    border-bottom: none !important;
+}
+
+
+.nav li a:hover{
+    border-bottom: 4px solid #4c4b5f;
+    padding: 6px 0;
+}
+
+.headerSection{
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+.clearAfter::after{
+    content: " ";
+    clear: both;
+    display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chain:before {
+    content: "\e900";
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative;
+    text-align: center;
+}
+
+.vintageBike{
+    font-size:18px;
+    text-align: center;
+    padding:100px 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+.vintageBikeHeading{
+    text-transform: uppercase;
+    color: #353738;
+    margin: 20px 0;
+    font-weight: 700;
+
+
+}
+
+
+
+.vintageDescription{
+    font-weight: 400;
+    line-height: 2;
+    margin: 20px;
+}
+
+.icon-chain{
+    font-size: 40px;
+    color: #91d2b9;
+}
+
+.contactSection{
+    background-color:#e9eaef;
+    text-align: center;
+    padding:100px 10px;
+}
+
+.contactSection h3{
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    margin:30px 0;
+}
+
+
+
+.input,
+.submit {
+    display: inline-block;
+    border-radius: 0;
+    -webkit-appearance: none;
+    border: 0;
+    margin: 0;
+    padding: 30px 50px;
+}
+
+.input {
+    border: 1px solid lightgray;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    padding: 29px 50px;
+
+}
+
+.submit {
+    background-color: #64c29e;
+    opacity: 0.8;
+    border: none;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color:#ffffff;
+    outline: none;
+    cursor: pointer;
+    margin-left:15px;
+}
+
+.submit:hover{
+    background:#4d4959;
+    box-shadow:0 2px 10px 5px #97B1BF;
+    color:#e9eaef;
+    opacity:0.8;
+}
+
+
+.submit::-moz-focus-inner {
+    border: 0;
+}
+
+.testimonialsSection{
+    padding:50px;
+    background-color: #4c4b5f;
+    text-align: center;
+}
+
+.testimonialsSection a{
+    display: inline-block;
+}
+
+.testimonialsSection a:hover{
+    opacity: 0.8;
+}
+
+.testimonialsSection .testimony{
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    color: #848789;
+    font-size:24px;
+}
+
+.testimonialsSection .address{
+    margin: 20px 0;
+    font-size:18px;
+    color: #353738;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+
+}
+
+.minute {
+    color: #848789;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    letter-spacing: 5px;
+
+}
+
+
+footer{
+    background-color: #ffffff;
+
+
+}
+
+
+.footerItems{
+    width: 33.3333333333%;
+    padding: 0 10px;
+    float: left;
+    color: #848789;
+    text-align: center;
+}
+
+.footerMain{
+    padding: 100px 0;
+}
+
+.footerItems strong{
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    color: #848789;
+}
+
+.footerOptions p{
+    font-style: italic;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+}
+
+.socialIcons{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 20px;
+}
+
+.socialIcons li{
+    margin-right: 10px;
+}
+
+.socialIcons li a{
+    display: inline-block;
+}
+
+.socialIcons li a:hover{
+    opacity: 0.8;
+}
+
+.handcraftSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.handcraftSection p{
+    margin-right:5px;
+}
+
+.handcraftSection a{
+    display: inline-block;
+}
+
+.handcraftSection img{
+    width:100%;
+}
+
+.handcraftSection a:hover{
+    opacity: 0.4;
+}
+
+
+
+@media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    .footerItems{
+        width:100%;
+    }
+}
+
+@media only screen and (max-width:720px) {
+
+    .nav li {
+        margin: 5px ;
+    }
+
+}
+
+
