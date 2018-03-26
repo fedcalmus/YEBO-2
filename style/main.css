@@ -264,16 +264,22 @@ footer{
 
 
 .footerItems{
-    width: 33.3333333333%;
+
     padding: 0 10px;
-    float: left;
     color: #848789;
     text-align: center;
 }
 
-.footerMain{
-    padding: 100px 0;
+.footerContainer{
+    padding:50px 0;
 }
+
+.footerOptions{
+    display: flex;
+    justify-content: space-around;
+}
+
+
 
 .footerItems strong{
     font-size: 16px;
