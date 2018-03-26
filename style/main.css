@@ -63,7 +63,7 @@ header{
 
 .nav li{
     margin: 0 20px;
-    display:inline-block;
+  
 
 }
 
@@ -125,10 +125,9 @@ header{
 }
 
 .container{
-    max-width: 1170px;
+    width:90%;
     margin: 0 auto;
     padding: 0 15px;
-    position: relative;
     text-align: center;
 }
 
@@ -145,10 +144,7 @@ header{
     margin: 20px 0;
     font-weight: 700;
 
-
 }
-
-
 
 .vintageDescription{
     font-weight: 400;
