@@ -55,6 +55,10 @@ table {
     border-spacing: 0;
 }
 
+a{
+    display: inline-block;
+}
+
 /*Reset CSS ends here*/
 
 
@@ -150,7 +154,6 @@ header{
 .vintageBikeSection{
     font-size:18px;
     padding:100px 0;
-    font-family: 'Lato', sans-serif;
 }
 
 .vintageBikeHeading{
@@ -200,7 +203,6 @@ header{
 .input {
     border: 1px solid lightgray;
     font-size: 20px;
-    font-family: 'Lato', sans-serif;
     font-style: italic;
     padding: 29px 50px;
 
@@ -237,16 +239,13 @@ header{
     text-align: center;
 }
 
-.testimonialsSection a{
-    display: inline-block;
-}
 
 .testimonialsSection a:hover{
     opacity: 0.8;
 }
 
 .testimonialsSection .testimony{
-    font-family: 'Lato', sans-serif;
+
     font-style: italic;
     color: #848789;
     font-size:24px;
@@ -256,7 +255,6 @@ header{
     margin: 20px 0;
     font-size:18px;
     color: #353738;
-    font-family: 'Lato', sans-serif;
     font-weight: 900;
     letter-spacing: 2px;
 
@@ -273,7 +271,6 @@ header{
 
 footer{
     background-color: #ffffff;
-
 }
 
 
@@ -292,7 +289,6 @@ footer{
 
 .footerItems strong{
     font-size: 16px;
-    font-family: 'Lato', sans-serif;
 }
 
 .footerOptions em{
@@ -306,10 +302,33 @@ footer{
     padding-right: 10px;
 }
 
-.socialIcons li a{
+.socialIcon {
     display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 20px;
+    border-radius: 100%;
+    color: #ffffff;
 }
 
+.facebook{
+
+    background-color: #537bbd;
+}
+
+.twitter{
+
+ background-color: #78cdf0;
+
+}
+
+.pinterest{
+    background-color: #eb5755;
+
+}
 .socialIcons li a:hover{
     opacity: 0.8;
 }
@@ -321,7 +340,7 @@ footer{
 
 .handcraftSection em{
     margin-right:5px;
-    /*display: inline-block;*/
+    font-style: normal;
 }
 
 
