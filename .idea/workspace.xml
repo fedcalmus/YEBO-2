@@ -3,7 +3,321 @@
   <component name="ChangeListManager">
     <list default="true" id="5571c9d0-b4d1-4ef5-bbf3-361528819c26" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/License.txt" afterPath="" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/AUTHORS.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/LICENSE.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/bower.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/dist/core.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.min.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.slim.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.slim.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.slim.min.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/external/sizzle/LICENSE.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/external/sizzle/dist/sizzle.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/external/sizzle/dist/sizzle.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/external/sizzle/dist/sizzle.min.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/.eslintrc.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/jsonp.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/load.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/parseXML.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/script.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/var/location.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/var/nonce.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/var/rquery.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/xhr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/attributes.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/attributes/attr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/attributes/classes.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/attributes/prop.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/attributes/support.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/attributes/val.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/callbacks.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/DOMEval.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/access.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/camelCase.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/init.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/nodeName.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/parseHTML.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/ready-no-deferred.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/ready.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/readyException.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/stripAndCollapse.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/support.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/toType.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/var/rsingleTag.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/addGetHookIf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/adjustCSS.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/curCSS.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/hiddenVisibleSelectors.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/showHide.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/support.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/var/cssExpand.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/var/getStyles.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/var/isHiddenWithinTree.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/var/rboxStyle.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/var/rnumnonpx.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/var/swap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/data.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/data/Data.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/data/var/acceptData.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/data/var/dataPriv.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/data/var/dataUser.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/deferred.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/deferred/exceptionHook.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/deprecated.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/dimensions.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/effects.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/effects/Tween.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/effects/animatedSelector.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/event.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/event/ajax.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/event/alias.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/event/focusin.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/event/support.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/event/trigger.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/exports/amd.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/exports/global.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/jquery.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/_evalUrl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/buildFragment.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/getAll.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/setGlobalEval.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/support.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/var/rcheckableType.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/var/rscriptType.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/var/rtagName.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/wrapMap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/offset.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/queue.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/queue/delay.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/selector-native.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/selector-sizzle.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/selector.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/serialize.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/traversing.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/traversing/findFilter.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/traversing/var/dir.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/traversing/var/rneedsContext.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/traversing/var/siblings.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/ObjectFunctionString.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/arr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/class2type.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/concat.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/document.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/documentElement.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/fnToString.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/getProto.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/hasOwn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/indexOf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/isFunction.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/isWindow.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/pnum.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/push.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/rcssNum.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/rnothtmlwhite.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/slice.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/support.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/toString.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/wrap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/.gitattributes" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/CONTRIBUTING.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/Gruntfile.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/ISSUE_TEMPLATE.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/ROADMAP.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/_config.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/bower.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/dist/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/dist/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/dist/assets/ajax-loader.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/dist/assets/owl.carousel.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/dist/assets/owl.theme.default.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/dist/assets/owl.theme.default.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/dist/assets/owl.theme.green.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/dist/assets/owl.theme.green.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/dist/assets/owl.video.play.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/dist/owl.carousel.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/dist/owl.carousel.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/assets/css/animate.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/assets/css/docs.theme.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/assets/img/bird_blue_32.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/assets/img/download.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/assets/img/feature-drag.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/assets/img/feature-modern.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/assets/img/feature-module.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/assets/img/feature-options.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/assets/img/feature-responsive.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/assets/img/feature-zombie.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/assets/img/owl-logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/assets/img/twitter_25.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/assets/js/app.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/assets/js/foundation.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/assets/owlcarousel/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/assets/owlcarousel/assets/ajax-loader.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/assets/owlcarousel/assets/owl.carousel.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/assets/owlcarousel/assets/owl.carousel.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/assets/owlcarousel/assets/owl.theme.default.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/assets/owlcarousel/assets/owl.theme.default.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/assets/owlcarousel/assets/owl.theme.green.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/assets/owlcarousel/assets/owl.theme.green.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/assets/owlcarousel/assets/owl.video.play.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/assets/owlcarousel/owl.carousel.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/assets/owlcarousel/owl.carousel.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/assets/vendors/foundation.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/assets/vendors/highlight.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/assets/vendors/jquery.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/assets/vendors/jquery.min.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/assets/vendors/jquery.mousewheel.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/demos/animate.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/demos/autoheight.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/demos/autoplay.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/demos/autowidth.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/demos/basic.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/demos/center.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/demos/demos.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/demos/events.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/demos/lazyLoad.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/demos/merge.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/demos/mousewheel.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/demos/responsive.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/demos/rtl.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/demos/stagepadding.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/demos/test.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/demos/urlhashnav.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/demos/video.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/docs/api-classes.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/docs/api-events.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/docs/api-options.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/docs/dev-buildin-plugins.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/docs/dev-external.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/docs/dev-plugin-api.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/docs/dev-styles.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/docs/started-faq.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/docs/started-installation.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/docs/started-welcome.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/docs/support-changelog.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/docs/support-contact.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/docs/support-contributing.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/assets/css/animate.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/assets/img/bird_blue_32.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/assets/img/download.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/assets/img/feature-drag.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/assets/img/feature-modern.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/assets/img/feature-module.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/assets/img/feature-options.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/assets/img/feature-responsive.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/assets/img/feature-zombie.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/assets/img/owl-logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/assets/img/twitter_25.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/assets/js/app.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/assets/js/foundation.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/assets/scss/_settings.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/assets/scss/custom.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/assets/scss/demos.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/assets/scss/docs.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/assets/scss/docs.theme.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/assets/scss/highlight.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/assets/vendors/foundation.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/assets/vendors/highlight.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/assets/vendors/jquery.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/assets/vendors/jquery.min.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/assets/vendors/jquery.mousewheel.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/data/classes.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/data/events.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/data/features.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/data/options.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/helpers/modulo.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/helpers/test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/layouts/demos.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/layouts/docs.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/layouts/home.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/pages/demos/animate.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/pages/demos/autoheight.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/pages/demos/autoplay.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/pages/demos/autowidth.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/pages/demos/basic.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/pages/demos/center.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/pages/demos/demos.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/pages/demos/events.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/pages/demos/lazyLoad.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/pages/demos/merge.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/pages/demos/mousewheel.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/pages/demos/responsive.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/pages/demos/rtl.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/pages/demos/stagepadding.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/pages/demos/test.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/pages/demos/urlhashnav.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/pages/demos/video.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/pages/docs/api-classes.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/pages/docs/api-events.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/pages/docs/api-options.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/pages/docs/dev-buildin-plugins.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/pages/docs/dev-external.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/pages/docs/dev-plugin-api.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/pages/docs/dev-styles.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/pages/docs/started-faq.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/pages/docs/started-installation.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/pages/docs/started-welcome.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/pages/docs/support-changelog.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/pages/docs/support-contact.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/pages/docs/support-contributing.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/pages/index.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/partials/footer.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/partials/head.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/partials/header.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/partials/home-carousel.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/partials/home-features.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/partials/home-hero.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/partials/home-teaser-text.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/partials/javascripts.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/partials/releated-docs.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/partials/sidenav-docs.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/partials/title.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/docs_src/templates/partials/vendors.hbs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/src/img/ajax-loader.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/src/img/owl.video.play.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/src/js/.jscsrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/src/js/.jshintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/src/js/owl.animate.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/src/js/owl.autoheight.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/src/js/owl.autoplay.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/src/js/owl.autorefresh.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/src/js/owl.carousel.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/src/js/owl.hash.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/src/js/owl.lazyload.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/src/js/owl.navigation.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/src/js/owl.support.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/src/js/owl.support.modernizr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/src/js/owl.video.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/src/scss/_animate.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/src/scss/_autoheight.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/src/scss/_core.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/src/scss/_lazyload.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/src/scss/_theme.default.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/src/scss/_theme.green.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/src/scss/_theme.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/src/scss/_video.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/src/scss/owl.carousel.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/src/scss/owl.theme.default.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/src/scss/owl.theme.green.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/test/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/test/unit/autoplay.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/owl.carousel/test/unit/core.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="" />
       <change beforePath="$PROJECT_DIR$/style/main.css" afterPath="$PROJECT_DIR$/style/main.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,8 +335,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="436" column="5" lean-forward="false" selection-start-line="436" selection-start-column="5" selection-end-line="436" selection-end-column="5" />
+            <state relative-caret-position="326">
+              <caret line="147" column="19" lean-forward="false" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -41,8 +355,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="98" column="10" lean-forward="false" selection-start-line="98" selection-start-column="10" selection-end-line="98" selection-end-column="10" />
+            <state relative-caret-position="-801">
+              <caret line="51" column="31" lean-forward="false" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -98,10 +412,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1386" />
@@ -167,15 +478,15 @@
       <workItem from="1521136817352" duration="5467000" />
       <workItem from="1522091544137" duration="428000" />
       <workItem from="1522135040522" duration="23044000" />
-      <workItem from="1522171702369" duration="813000" />
+      <workItem from="1522171702369" duration="1491000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71166000" />
+    <option name="totallyTimeSpent" value="71844000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1386" height="788" extended-state="0" />
+    <frame x="-8" y="-8" width="1386" height="788" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.124087594" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -393,16 +704,16 @@
     <entry file="file://C:/xampp/htdocs/kappe/js/main.js" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="98" column="10" lean-forward="false" selection-start-line="98" selection-start-column="10" selection-end-line="98" selection-end-column="10" />
+        <state relative-caret-position="-801">
+          <caret line="51" column="31" lean-forward="false" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="436" column="5" lean-forward="false" selection-start-line="436" selection-start-column="5" selection-end-line="436" selection-end-column="5" />
+        <state relative-caret-position="326">
+          <caret line="147" column="19" lean-forward="false" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
           <folding />
         </state>
       </provider>

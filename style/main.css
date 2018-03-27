@@ -93,7 +93,7 @@ header{
     margin: 0 20px;
 }
 
-.nav li a,.navresponsive li a{
+.nav li a{
     text-decoration: none;
     color: #4d4959;
     text-transform: uppercase;
@@ -146,7 +146,6 @@ header{
 .container{
     width:90%;
     margin: 0 auto;
-    padding: 0 15px;
     text-align: center;
 }
 
@@ -167,7 +166,6 @@ header{
 }
 
 .vintageBikeSection{
-    font-size:18px;
     padding:50px 0;
 }
 
@@ -176,7 +174,6 @@ header{
     color: #353738;
     margin: 20px 0;
     font-weight: 700;
-
 }
 
 .vintageDescription{
@@ -198,7 +195,6 @@ header{
 
 .contactSection h3{
     font-size: 24px;
-    font-family: 'Lato', sans-serif;
     font-style: italic;
     margin:30px 0;
 }
@@ -282,7 +278,6 @@ header{
 
 .minute {
     color: #848789;
-    font-family: 'Lato', sans-serif;
     font-weight: 300;
     letter-spacing: 5px;
 
