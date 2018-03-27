@@ -9,10 +9,8 @@
     font-style: normal;
 }
 
+/*Reset CSS starts here*/
 
-
-header, section, footer, aside, nav, article, figure, figcaption {
-    display: block;}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -29,13 +27,36 @@ time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
+    font-size: 100%;
+    font: inherit;
     vertical-align: baseline;
 }
-* {
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
 }
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*Reset CSS ends here*/
+
 
 body{
     background-color: #f7f7f7;
@@ -47,7 +68,11 @@ body{
 }
 
 header{
-    width:100%;
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
 }
 
 
@@ -57,8 +82,6 @@ header{
     white-space: nowrap;
     align-items: center;
     display: inline-flex;
-    list-style: none;
-
 }
 
 .nav li{
@@ -79,6 +102,11 @@ header{
     -webkit-transition: 0.2s ease-out;
     -moz-transition: 0.2s ease-out;
     -o-transition: 0.2s ease-out;
+    
+}
+
+.nav li a{
+    display: block;
 }
 
 
@@ -87,19 +115,21 @@ header{
     border-bottom: none !important;
 }
 
+.logoImage img{
+
+    max-height: 85px;
+}
+
+.logoImage{
+    padding: 6px 0;
+}
+
 
 .nav li a:hover{
     border-bottom: 4px solid #4c4b5f;
     padding: 6px 0;
 }
 
-.headerSection{
-    background-image: url("../img/bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 800px;
-}
 
 .clearAfter::after{
     content: " ";
@@ -295,7 +325,6 @@ footer{
 
 .socialIcons{
     display: flex;
-    list-style: none;
     justify-content: center;
     padding: 20px;
 }
@@ -332,23 +361,6 @@ footer{
 
 .handcraftSection a:hover{
     opacity: 0.4;
-}
-
-
-
-@media only screen and (max-width:620px) {
-    /* For mobile phones: */
-    .footerItems{
-        width:100%;
-    }
-}
-
-@media only screen and (max-width:720px) {
-
-    .nav li {
-        margin: 5px ;
-    }
-
 }
 
 
