@@ -168,7 +168,7 @@ header{
 
 .vintageBikeSection{
     font-size:18px;
-    padding:100px 0;
+    padding:50px 0;
 }
 
 .vintageBikeHeading{
@@ -227,7 +227,7 @@ header{
     background-color: #64c29e;
     opacity: 0.8;
     border: none;
-    font-size: 20px;
+    font-size: 19px;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     color:#ffffff;
@@ -383,7 +383,7 @@ footer{
     }
 
     .nav li,a{
-        margin: 20px 0;
+        margin: 15px 0;
         color: #FFFFFF;
     }
 
@@ -405,5 +405,35 @@ footer{
         background-image: url("../img/bg-small.png");
         height: 100%;
     }
+
+    .testimonialsSection .testimony{
+        font-size: 16px;
+    }
 }
+
+@media only screen and (max-width: 645px) {
+
+    .footerOptions {
+        flex-direction: column;
+        padding: 15px 0;
+    }
+
+    .emailForm{
+        display: inline-block;
+
+    }
+    .input {
+        display: block;
+        font-size: 16px;
+
+    }
+
+    .submit{
+        margin-top: 25px;
+        margin-left: 0;
+        display: inline-block;
+    }
+    
+}
+
 
