@@ -59,6 +59,11 @@ a{
     display: inline-block;
 }
 
+
+* {
+    box-sizing: border-box;
+}
+
 /*Reset CSS ends here*/
 
 
