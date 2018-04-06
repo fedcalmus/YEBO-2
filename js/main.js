@@ -1,23 +1,22 @@
+$(function() {
 
+    var AppPlugins = {
 
-    $('.owl-carousel').owlCarousel({
-        loop:true,
-        margin:10,
-        nav:true,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:1
-            },
-            1000:{
-                items:1
-            }
+        /* Owl carousel*/
+        owlCarousel: function() {
+            $('.owl-carousel').owlCarousel({
+                nav: true,
+                items: 1,
+                loop: true,
+                center: true,
+                margin: 0,
+                lazyLoad: true,
+                dots: true
+            });
         }
-    })
+    };
 
+        /* ------ Plugins Init ------ */
+        AppPlugins.owlCarousel();
 
-
-
-
+});

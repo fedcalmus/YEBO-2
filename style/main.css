@@ -55,14 +55,15 @@ table {
     border-spacing: 0;
 }
 
-a{
+a {
     display: inline-block;
+    text-decoration: none;
 }
 
 /*Reset CSS ends here*/
 
 
-body{
+body {
     background-color: #f7f7f7;
     color: #848789;
     font-family: 'Lato', sans-serif;
@@ -71,7 +72,7 @@ body{
     font-size:18px;
 }
 
-header{
+header {
     background-image: url("../img/bg.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -80,8 +81,7 @@ header{
 }
 
 
-.nav{
-  
+.nav {
     padding: 20px 0;
     white-space: nowrap;
     align-items: center;
@@ -89,16 +89,13 @@ header{
     justify-content: center;
 }
 
-
-.nav li{
+.nav li {
     margin: 0 20px;
 }
 
 .nav li a{
-    text-decoration: none;
     color: #4d4959;
     text-transform: uppercase;
-    font-family: 'Lato', sans-serif;
     font-weight: 700;
     letter-spacing: 3px;
     font-size: 13px;
@@ -106,19 +103,19 @@ header{
     -webkit-transition: 0.3s ease-out;
     -moz-transition: 0.3s ease-out;
     -o-transition: 0.3s ease-out;
-    
+
 }
 
-.logoImage:hover{
+.logo:hover{
     opacity:0.6;
     border-bottom: none !important;
 }
 
-.logoImage img{
+.logo img{
     max-height: 85px;
 }
 
-.logoImage{
+.logo {
     padding: 6px 0;
     display: inline-block;
 }
@@ -166,24 +163,28 @@ header{
     opacity:0.8;
 }
 
-.vintageBikeSection{
+.vintageBike{
     padding:50px 0;
 }
 
-.vintageBikeHeading{
-    text-transform: uppercase;
-    color: #353738;
-    margin: 20px 0;
+h3 {
+    font-size: 24px;
     font-weight: 700;
 }
 
-.vintageDescription{
+.bikeHeading {
+    text-transform: uppercase;
+    color: #353738;
+    margin: 20px 0;
+}
+
+.bikeDesc {
     font-weight: 400;
     line-height: 2;
     margin: 20px;
 }
 
-.icon-chain{
+.icon-chain {
     font-size: 40px;
     color: #91d2b9;
 }
@@ -194,8 +195,7 @@ header{
     padding:100px 10px;
 }
 
-.contactSection h3{
-    font-size: 24px;
+.contactSection .contactHeading {
     font-style: italic;
     margin:30px 0;
 }
@@ -208,11 +208,7 @@ header{
 
 .input,
 .submit {
-    display: inline-block;
-    border-radius: 0;
     -webkit-appearance: none;
-    border: 0;
-    margin: 0;
     padding: 0 50px;
 }
 
@@ -250,25 +246,25 @@ header{
     border: 0;
 }
 
-.testimonialsSection{
+.testimonials{
     padding:50px 0;
     background-color: #4c4b5f;
     text-align: center;
 }
 
 
-.testimonialsSection a:hover{
+.testimonials a:hover{
     opacity: 0.8;
 }
 
-.testimonialsSection .testimony{
+.testimonials .testimony{
 
     font-style: italic;
     color: #848789;
     font-size:20px;
 }
 
-.testimonialsSection .address{
+.testimonials .address{
     margin: 20px 0;
     font-size:18px;
     color: #353738;
@@ -285,16 +281,16 @@ header{
 }
 
 
-footer{
+footer {
     background-color: #ffffff;
 }
 
 
-.footerContainer{
+.footerContainer {
     padding:50px 0;
 }
 
-.footerOptions{
+.footerOptions {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -303,24 +299,20 @@ footer{
     font-size: 13px;
 }
 
-.footerItems strong{
+.footerItems strong {
     font-size: 16px;
 }
 
-.footerOptions em{
+.footerOptions em {
     display: block;
 }
 
-
-
-.socialIcons li{
+.socialIcons li {
     display: inline-block;
     padding-right: 10px;
 }
 
 .socialIcon {
-    display: inline-block;
-    text-decoration: none;
     text-align: center;
     width: 35px;
     height: 35px;
@@ -330,45 +322,41 @@ footer{
     color: #ffffff;
 }
 
-.facebook{
-
+.facebook {
     background-color: #537bbd;
 }
 
-.twitter{
-
- background-color: #78cdf0;
+.twitter {
+    background-color: #78cdf0;
 
 }
 
-.pinterest{
+.pinterest {
     background-color: #eb5755;
-
 }
-.socialIcons li a:hover{
+
+.socialIcon:hover {
     opacity: 0.8;
 }
 
-.handcraftSection{
+.handcraft {
     display: flex;
     align-items: center;
 }
 
-.handcraftSection em{
+.handcraft em {
     margin-right:5px;
     font-style: normal;
 }
 
 
-.handcraftSection img{
+.handcraft img {
     max-height: 70px;
 }
 
-.handcraftSection a:hover{
+.handcraft a:hover {
     opacity: 0.4;
 }
-
-
 
 @media only screen and (max-width: 710px) {
 
@@ -383,43 +371,47 @@ footer{
         padding: 0;
     }
 
-    .nav li,a{
+    .nav li, .nav li a {
         margin: 15px 0;
         color: #FFFFFF;
     }
 
-    .nav li a{
-        color: #FFFFFF;
-    }
-
-    .nav li a:hover{
+    .nav li a:hover {
         color: #a3adb3;
         border:none;
         padding: 0;
     }
 
-    .logoImage{
+    .logo {
         padding: 0;
     }
 
-    header{
+    header {
         background-image: url("../img/bg-small.png");
         height: 100%;
     }
 
-    .testimonialsSection .testimony{
+    .testimonials .testimony {
         font-size: 16px;
     }
-}
-
-@media only screen and (max-width: 645px) {
 
     .footerOptions {
         flex-direction: column;
         padding: 15px 0;
     }
 
-    .emailForm{
+    .footerItems {
+        padding-bottom: 25px;
+    }
+
+    .footerItems:last-child {
+        padding-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+
+    .emailForm {
         flex-direction: column;
 
     }
@@ -431,6 +423,7 @@ footer{
     .submit {
         margin-top: 25px;
     }
+
 }
 
 

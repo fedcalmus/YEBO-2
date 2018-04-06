@@ -1,0 +1,17 @@
+
+$(function() {
+
+    var AppPlugins = {
+
+        /* Owl Carousel */
+        owlCarousel: function(){
+            $(window).on("load",function(){
+                $(".leftSideSection").mCustomScrollbar();
+            });
+        }
+    };
+
+    /* ------ Plugins Init ------ */
+    AppPlugins.OwlCarousel();
+
+});
