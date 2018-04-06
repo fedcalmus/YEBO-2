@@ -285,11 +285,9 @@ h3 {
 
 }
 
-
 footer {
     background-color: #ffffff;
 }
-
 
 .footerContainer {
     padding:50px 0;
@@ -308,11 +306,7 @@ footer {
     font-size: 16px;
 }
 
-<<<<<<< HEAD
-.footerOptions em {
-=======
-.footerOptions .footerText{
->>>>>>> 603fe82c45f3851c413bededbdadfd9ecb578ade
+.footerOptions .footerText {
     display: block;
 }
 
