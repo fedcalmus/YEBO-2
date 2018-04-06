@@ -60,6 +60,11 @@ a {
     text-decoration: none;
 }
 
+
+* {
+    box-sizing: border-box;
+}
+
 /*Reset CSS ends here*/
 
 
@@ -303,7 +308,11 @@ footer {
     font-size: 16px;
 }
 
+<<<<<<< HEAD
 .footerOptions em {
+=======
+.footerOptions .footerText{
+>>>>>>> 603fe82c45f3851c413bededbdadfd9ecb578ade
     display: block;
 }
 
